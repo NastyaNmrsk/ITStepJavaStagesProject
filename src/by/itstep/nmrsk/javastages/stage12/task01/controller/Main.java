@@ -13,7 +13,7 @@ public class Main {
         int x2 = scanner.nextInt();
         int y2 = scanner.nextInt();
 
-        boolean result = true;
+
 
         String msg = result ? "YES" : "NO";
         Printer.print(msg);
