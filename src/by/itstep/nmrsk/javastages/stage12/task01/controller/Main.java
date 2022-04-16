@@ -23,6 +23,7 @@ public class Main {
 //        boolean result = ChessPiecesLogic.checkQueenStep(x1, y1, x2, y2);
 
         boolean result = ChessPiecesLogic.checkKnightStep(x1, y1, x2, y2);
+
         String msg = (x1 > 0 && x1 < 9 && x2 > 0 && x2 < 9 && y1 > 0 && y1 < 9 && y2 > 0 && y2 < 9) ?
                 (result ? "YES" : "NO") : "Please, input correct data.";
         Printer.print(msg);

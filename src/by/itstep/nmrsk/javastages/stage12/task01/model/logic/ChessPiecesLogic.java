@@ -19,7 +19,8 @@ public class ChessPiecesLogic {
     }
 
     public static boolean checkQueenStep(int x1, int y1, int x2, int y2) {
-        return checkRookStep(x1, y1, x2, y2) || checkBishopStep(x1, y1, x2, y2);
+        boolean resultQueen = checkRookStep(x1, y1, x2, y2) || checkBishopStep(x1, y1, x2, y2);
+        return resultQueen;
     }
 
     public static boolean checkKnightStep(int x1, int y1, int x2, int y2) {

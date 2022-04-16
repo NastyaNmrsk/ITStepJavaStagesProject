@@ -2,7 +2,6 @@ package by.itstep.nmrsk.javastages.stage12.task01.model.logic;
 
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 
