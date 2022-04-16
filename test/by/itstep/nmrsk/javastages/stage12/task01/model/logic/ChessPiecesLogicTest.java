@@ -16,6 +16,8 @@ public class ChessPiecesLogicTest {
             int y2 = points[i][1];
             boolean actual = ChessPiecesLogic.checkRookStep(x1, y1, x2, y2);
 
+            
+            
             String error = String.format("Error with chess cell: (%d, %d)", x2, y2);
             assertTrue(error, actual);
         }
